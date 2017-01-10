@@ -1,3 +1,2 @@
-FUNCTION_BLOCK	testv_1			PT=1	testv_1	HIDDEN=0	
-FUNCTION_BLOCK	commit_2			PT=1	commit_2	HIDDEN=0	
+FUNCTION_BLOCK	new_br_commmit_1			PT=1	new_br_commmit_1	HIDDEN=0	
 PROGRAM	Main			PT=1	Main	HIDDEN=0	

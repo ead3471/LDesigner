@@ -1,6 +1,5 @@
 (*
-NPOU: 3
+NPOU: 2
 *)
-FB	testv_1
-FB	commit_2
+FB	new_br_commmit_1
 PG	Main
