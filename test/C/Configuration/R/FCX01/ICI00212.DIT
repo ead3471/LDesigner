@@ -1,0 +1,22 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 212
+QSL: 2
+QVE: 2
+QVPC: 2
+QPar: 0
+QFBI: 0
+*)
+@V 1 6 0
+COUNTER	1	VAR	@TYP:8
+		     
+
+;
+
+@V 1 7 0
+V003	2	VAR	@TYP:1
+		     
+
+;
+

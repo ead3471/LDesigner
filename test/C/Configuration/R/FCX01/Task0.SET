@@ -1,0 +1,6 @@
+TASK Task1
+(TYPE := CYCLIC,
+INTERVAL := T#100ms,
+PRIORITY := 0,
+WATCHDOG := 100
+);

@@ -1,0 +1,105 @@
+SD_FErrTab
+	0	61
+SD_FTaskName
+	0	9
+SD_FExtended_Task_Info
+	Task_Name	SD_FTaskName
+	Task_Prio	UINT
+	unused_0	UINT
+	Task_Period	UINT
+	Task_Stack	UINT
+	Task_MainPoe	UINT
+	Task_Watchdog	UINT
+	unused_2_1	UINT
+	unused_2_2	UINT
+	unused_3	UINT
+	Duration_Cur	UINT
+	Duration_Min	UINT
+	Duration_Max	UINT
+	Duration_Ave	UINT
+	Delay_Cur	UINT
+	Delay_Min	UINT
+	Delay_Max	UINT
+SD_FVerStr
+	0	31
+SD_FPrjName
+	0	11
+SD_FRevShort
+	0	7
+SD_FRevLong
+	0	15
+SD_FNodeType
+	0	23
+SD_FSerialNo
+	0	15
+SD_FManuDate
+	0	3
+SD_FErrorInfoStr
+	0	31
+SD_FRAS_Info
+	SoftStatus	WORD
+	HardStatus	WORD
+	SramErr	WORD
+	CpuTemp	UINT
+	MemErrCnt	UDINT
+	MemErrAddr	UDINT
+	SramErrCnt	UDINT
+	DownStatus	DWORD
+	DownCode	DWORD
+	TotalTime	UDINT
+	ActiveTime	UDINT
+	RestartFlag	BOOL
+	CtrlPriority	SINT
+	SubwayRev	USINT
+	reserved_1	USINT
+	Rev_Os	SD_FRevShort
+	Rev_Boot	SD_FRevLong
+	Rev_Kernel	SD_FRevLong
+	StationType	SD_FNodeType
+	SerialNo	SD_FSerialNo
+	ManufactDate	SD_FManuDate
+	ErrorStr	SD_FErrorInfoStr
+	OSBuildNo	UDINT
+	BootBuildNo	UDINT
+	LogDate	UDINT
+	ApcTime	UDINT
+	ApcMode	USINT
+	ApcStatus	BYTE
+	Reserved_3	BYTE
+	Reserved_4	BYTE
+	OlMntCounter	UDINT
+	AccsCtrl	BYTE
+	Reserved_5	BYTE
+	Reserved_6	BYTE
+	Reserved_7	BYTE
+	DUMMY6	DWORD
+	DUMMY7	DWORD
+	DUMMY8	DWORD
+	DUMMY9	DWORD
+SD_IomName
+	0	9
+SD_FIOM_Info
+	DeviceID	DWORD
+	IomStatus	WORD
+	ErrDetail	WORD
+	SbbusStatus	WORD
+	dummy1	WORD
+	dummy2	WORD
+	dummy3	WORD
+	IomName	SD_IomName
+	dummy4	WORD
+	PortStatusNum	UINT
+	PortStatusValid	BYTE
+	PortStatus	BYTE
+SD_FIOM_Unit_Info
+	0	9
+SD_FIO_StatInfo
+	iomInfo1	SD_FIOM_Unit_Info
+	iomInfo2	SD_FIOM_Unit_Info
+	iomInfo3	SD_FIOM_Unit_Info
+	Psu2Status	WORD
+	Psu3Status	WORD
+	DUMMY1	DWORD
+	DUMMY2	DWORD
+	DUMMY3	DWORD
+STRING180	180
